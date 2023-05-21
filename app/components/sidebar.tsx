@@ -177,7 +177,7 @@ export function SideBar(props: { className?: string }) {
             <a href={REPO_URL} target="_blank">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
-          </div> */}
+          </div> */}ds 
         </div>
         <div>
           <IconButton
