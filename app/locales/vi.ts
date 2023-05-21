@@ -6,6 +6,8 @@ const vi: LocaleType = {
   Error: {
     Unauthorized:
       "Truy cập chưa xác thực, vui lòng nhập mã truy cập trong trang cài đặt.",
+    Ratelimits:
+      "正在回复他人消息，请等待20秒后重试! 您也可以使用私人KEY避免这个问题~",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} tin nhắn`,

@@ -6,6 +6,8 @@ const jp: LocaleType = {
   Error: {
     Unauthorized:
       "現在は未承認状態です。左下の設定ボタンをクリックし、アクセスパスワードを入力してください。",
+    Ratelimits:
+      "正在回复他人消息，请等待20秒后重试! 您也可以使用私人KEY避免这个问题~",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 通のチャット`,

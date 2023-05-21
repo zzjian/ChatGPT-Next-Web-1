@@ -6,6 +6,8 @@ const tr: LocaleType = {
   Error: {
     Unauthorized:
       "Yetkisiz erişim, lütfen erişim kodunu ayarlar sayfasından giriniz.",
+    Ratelimits:
+      "正在回复他人消息，请等待20秒后重试! 您也可以使用私人KEY避免这个问题~",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} mesaj`,

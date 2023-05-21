@@ -6,6 +6,8 @@ const en: RequiredLocaleType = {
   Error: {
     Unauthorized:
       "Unauthorized access, please enter access code in settings page.",
+    Ratelimits:
+      "正在回复他人消息，请等待20秒后重试! 您也可以使用私人KEY避免这个问题~",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,

@@ -6,6 +6,8 @@ const fr: LocaleType = {
   Error: {
     Unauthorized:
       "Accès non autorisé, veuillez saisir le code d'accès dans la page des paramètres.",
+    Ratelimits:
+      "正在回复他人消息，请等待20秒后重试! 您也可以使用私人KEY避免这个问题~",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages en total`,
