@@ -115,7 +115,11 @@ export class ChatGPTApi implements LLMApi {
                 responseTexts.push(Locale.Error.Unauthorized);
               }
               if (res.status === 429) {
-                responseTexts.push(Locale.Error.Ratelimits);
+                if(extraInfo.includes('insufficient_quota')){
+                  responseTexts.push('KEY额度使用完毕，请等待管理员更新API KEY! 您也可以使用私人KEY自行解决问题~');
+                }else if(extraInfo.includes('Rate limit')){
+                  responseTexts.push(Locale.Error.Ratelimits);
+                }
               }
               if (extraInfo) {
                 responseTexts.push(extraInfo);
